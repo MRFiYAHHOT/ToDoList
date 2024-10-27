@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(Leonardo_Phoenix_a_highly_detailed_and_photorealistic_cinemati_2.jpg);
+  align-items: center;
+}
+
+.todo-container {
+  width: 300px;
+  text-align: center;
+}
+
+input {
+  width: 70%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px;
+  margin-left: 5px;
+  background-color: #af4c4c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #077d0d;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+li.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.remove-btn {
+  background: none;
+  border: none;
+  color: red;
+  cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    color: white;
+    background-color:black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+li{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
